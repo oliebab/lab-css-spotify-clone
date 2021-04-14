@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: Maven Pro;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    background-color: white;
+    z-index: 0;
+}
+
+#spotify-logo {
+    height: 50px;
+    width: auto;
+    margin-left: 20%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.buttons-wrapper {
+    height: 50px;
+    width: 50%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: -15%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons-wrapper ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    flex-direction: flex-end;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
+}
+
+#music-for-everyone {
+    color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 12%;
+}
+
+#article-in-picture {
+    color: black;
+    font-size: 1.8em ;
+    height: 800px;
+    margin-top: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+}
+
+#offerings h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+#offerings h3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.container-wrapper img {
+    width: 100px;
+    height: auto;
+    padding-left: 32%;
+}
+
+#offerings .offerings-container  {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.offerings-container h3 {
+    color: #00B172;
+}
+
+#yeezy {
+    background-color: #00B172 ;
+    height: 750px;
+    display: flex;
+    color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#spotify-app {
+    width: auto;
+    height: 550px;
+    margin-right: 15%;
+    margin-top: 120px;
+}
+
+#yeezy-wrapper {
+    font-size: 1.2em;
+    padding-left: 10%;
+    margin-right: 20%;
+    margin-top: 60px;
+}
+
+.container2 {
+    width: 65%;
+    padding-bottom: 5%;
+}
+
+#yeezy-title {
+    padding-bottom: 50px;
+}
+
+#spotify-icon-white {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin: 20% 40%;
+}
+
+
+
+
+
+
